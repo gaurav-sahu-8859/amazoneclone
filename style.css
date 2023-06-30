@@ -1,9 +1,138 @@
-#secondpara {
-    color : rgb(245 ,185,245);
-    
+* {
+    margin: 0px;
+    padding: 0px;
 }
-.thirdpara {
-    color: rgb(235, 186, 145);
-  
-  }
- 
+
+#nav1 {
+    border: solid #131921;
+    /* border-color: #febd69; */
+    background-color: #131921;
+    margin-right: 0.15%;
+}
+
+#nav1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 2%;
+    height: 100px;
+}
+
+li {
+    list-style: none;
+    /* color: #cccccc; */
+}
+
+.navbox:hover {
+    border: 1px solid #cccccc;
+}
+
+#navbox1 {
+    border: none;
+    height: 70;
+    width: auto;
+}
+
+#navbox1:hover {
+    border: 1px solid #cccccc;
+}
+
+.amazonlogo {
+    height: 70px;
+    width: auto;
+}
+
+#navbox2 {
+    padding-top: 15px;
+    padding-left: 15px;
+    display: block;
+    color: #b3b0b0;
+    height: 75%;
+    width: 20%;
+}
+
+nav a {
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#navbox3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 700px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbox3 #selector {
+    background-color: #f3f3f3;
+}
+
+#navbox3 #search {
+    background-color: #febd69;
+}
+
+#navbox4 select {
+    background-color: #131921;
+    color: #f3f3f3;
+    font-family: inherit;
+    border: none;
+    height: 70px;
+}
+
+#navbox5 {
+    color: #cccccc;
+    display: block;
+    background-color: #131921;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 20%;
+    height: 90%;
+}
+
+#navbox5 #account {
+    background-color: #131921;
+    color: #f3f3f3;
+    border: none;
+}
+
+#navbox6 {
+    display: block;
+    width: 20%;
+    color: #cccccc;
+}
+
+#navbox7 {
+    color: #f3f3f3;
+    height: 70%;
+    width: 10%;
+    padding-top: 30px;
+    text-align-last: center;
+}
+
+#nav2 {
+    background-color: #232f3e;
+    color: #f3f3f3;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nav2box{
+    width:100%
+}
+#nav2box:hover{
+    border: 1px solid#b3b0b0;
+}
+#nav2box li{
+    display:inline;
+    padding-left: 3%;
+}
+#heroimg{
+    height: 60vh;
+    width: 100vw;
+}
